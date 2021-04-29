@@ -58,7 +58,7 @@ void menu(){
 }
 int AsalSayi(int sayi,int bolen){
     if(bolen==1 ) return 0;
-    if(sayi%bolen==0) return 1;
+    if(sayi<=1 || sayi%bolen==0 ) return 1;
     else AsalSayi(sayi,bolen-1);
 }
 int SayiCarpimi(int sayi1,int sayi2){
