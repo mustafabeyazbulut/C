@@ -1,10 +1,17 @@
 int a=5;	a nın adresi AA
 aptr=&a		aptr nin adresi XX olsun
+dizi={5,6,4}
 
 *aptr	= aptr nin içindeki değer
 &aptr	= aptr nin adresi
+aptr	= tuttuğu adres
 &(*aptr)= aptrnin içindeki değerin adresi
 *(&aptr)= aptrnin içindeki adresin değeri
 
 &(*aptr)	=&(5)	=AA
 *(&aptr)	=*(XX)	=AA
+
+aptr=dizi	dizinin 0. elemanının adresini tutar 
+aptr++ dizinin diğer elemanları null olana kadar
+aptr=&dizi[1]	dizinin 1. elemanının adresini tutar
+
