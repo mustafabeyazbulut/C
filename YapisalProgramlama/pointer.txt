@@ -1,0 +1,10 @@
+int a=5;	a nın adresi AA
+aptr=&a		aptr nin adresi XX olsun
+
+*aptr	= aptr nin içindeki değer
+&aptr	= aptr nin adresi
+&(*aptr)= aptrnin içindeki değerin adresi
+*(&aptr)= aptrnin içindeki adresin değeri
+
+&(*aptr)	=&(5)	=AA
+*(&aptr)	=*(XX)	=AA
